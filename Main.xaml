@@ -68,7 +68,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <upa:Stage sap:VirtualizedContainerService.HintSize="408.8,255.2" sap2010:WorkflowViewState.IdRef="Stage_1" KeyId="770a7127-3ba0-4b5b-908d-36718739ab42">
+    <upa:Stage DisplayName="Stage Clone" sap:VirtualizedContainerService.HintSize="408.8,255.2" sap2010:WorkflowViewState.IdRef="Stage_1" KeyId="770a7127-3ba0-4b5b-908d-36718739ab42">
       <upa:Stage.ActivityDelegate>
         <ActivityAction>
           <Sequence DisplayName="Clone Sequence" sap:VirtualizedContainerService.HintSize="375.2,178.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -82,7 +82,7 @@
         </ActivityAction>
       </upa:Stage.ActivityDelegate>
     </upa:Stage>
-    <upa:Stage sap:VirtualizedContainerService.HintSize="408.8,255.2" sap2010:WorkflowViewState.IdRef="Stage_2" KeyId="96cbab7d-778b-465a-a9c4-e753aa6437b2">
+    <upa:Stage DisplayName="Stage Build" sap:VirtualizedContainerService.HintSize="408.8,255.2" sap2010:WorkflowViewState.IdRef="Stage_2" KeyId="96cbab7d-778b-465a-a9c4-e753aa6437b2">
       <upa:Stage.ActivityDelegate>
         <ActivityAction>
           <Sequence DisplayName="Build Sequence" sap:VirtualizedContainerService.HintSize="375.2,178.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
@@ -96,7 +96,7 @@
         </ActivityAction>
       </upa:Stage.ActivityDelegate>
     </upa:Stage>
-    <upa:Stage sap:VirtualizedContainerService.HintSize="408.8,304" sap2010:WorkflowViewState.IdRef="Stage_3" KeyId="042f8bc5-39a8-4a06-9231-e72b52f4f088">
+    <upa:Stage DisplayName="Stage Publish" sap:VirtualizedContainerService.HintSize="408.8,304" sap2010:WorkflowViewState.IdRef="Stage_3" KeyId="042f8bc5-39a8-4a06-9231-e72b52f4f088">
       <upa:Stage.ActivityDelegate>
         <ActivityAction>
           <Sequence DisplayName="Publish Package Sequence" sap:VirtualizedContainerService.HintSize="375.2,227.2" sap2010:WorkflowViewState.IdRef="Sequence_4">
