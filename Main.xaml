@@ -77,7 +77,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <upa:Clone AccessToken="{x:Null}" CommitSha="{x:Null}" ContinueOnError="{x:Null}" DestinationPath="C:\Users\sebastian.balan\OneDrive - UiPath\Documents\UiPath\AutomationOpsPipelines" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="Clone_1" RepoUrl="https://github.com/SebastianBalan/AutomationOpsPipeline.git" RepositoryPath="[RepositoryPath]" TimeoutMS="60000" />
+            <upa:Clone AccessToken="{x:Null}" CommitSha="{x:Null}" ContinueOnError="{x:Null}" DestinationPath="C:\Users\sebastian.balan\OneDrive - UiPath\Documents\UiPath\AutomationOpsPipelines" sap:VirtualizedContainerService.HintSize="333.6,85.6" sap2010:WorkflowViewState.IdRef="Clone_1" RepoUrl="https://github.com/SebastianBalan/POCProcess.git" RepositoryPath="[RepositoryPath]" TimeoutMS="60000" />
           </Sequence>
         </ActivityAction>
       </upa:Stage.ActivityDelegate>
